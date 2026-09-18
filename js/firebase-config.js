@@ -1,16 +1,11 @@
-// Firebase コンソールで取得した設定をここに貼り付けてください。
-// （Firebase コンソール → プロジェクトの設定 → マイアプリ → ウェブアプリ）
-//
-// 未設定のままでも、この端末だけに保存される「オフラインモード」で動きます。
-
+// Firebase コンソールで取得した設定
 export const firebaseConfig = {
-  apiKey: 'YOUR_API_KEY',
-  authDomain: 'YOUR_PROJECT.firebaseapp.com',
-  projectId: 'YOUR_PROJECT',
-  storageBucket: 'YOUR_PROJECT.appspot.com',
-  messagingSenderId: 'YOUR_SENDER_ID',
-  appId: 'YOUR_APP_ID'
+  apiKey: 'AIzaSyCWCcDYAcpSLcb8enrY6f4kDopqrDgDQcM',
+  authDomain: 'meallog-317be.firebaseapp.com',
+  projectId: 'meallog-317be',
+  storageBucket: 'meallog-317be.firebasestorage.app',
+  messagingSenderId: '544945232012',
+  appId: '1:544945232012:web:405719b1e4c89552ec03a9'
 };
 
-// 設定が入っているかどうかの判定に使います（編集不要）
 export const isConfigured = !firebaseConfig.apiKey.startsWith('YOUR_');
